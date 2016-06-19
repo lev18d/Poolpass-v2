@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>POOL PASS</title>
-    <link rel="stylesheet" type="text/css" href="ppLogin.css">
+    <br>
+    <br>
+    <link rel="stylesheet" type="text/css" href="css/ppLogin.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -48,13 +50,33 @@
 <body>
 <div class="container">
 
-    <form class="form-signin">
-        <h2 class="form-signin-heading"> Sign Up</h2>
+    <form class="form-signin" action="http://www.google.com" method="GET">
+
+        <div style="text-align:center;"><h2 class="form-signin-heading "> Pool Pass </h2></div>
+
+
+
+
+        <label for="inputname" class="sr-only">First Name</label>
+        <input type="fname" id="inputname" class="form-control" placeholder="First Name" required="" autofocus="">
+        <br>
+        <label for="inputLname" class="sr-only">Last Name</label>
+        <input type="lname" id="inputLname" class="form-control" placeholder="Last Name" required="">
+        <br>
         <label for="inputEmail" class="sr-only">Email address</label>
         <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+        <br>
         <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <br>
+
+
+            <input type="submit" value="Submit" >
+
+
+
+        <!--<button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>-->
+
     </form>
 </div>
 
