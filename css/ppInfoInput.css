@@ -1,5 +1,10 @@
 /* Padding - just for asthetics on Bootsnipp.com */
-body { margin-top:20px; }
+body {
+    margin-top:20px;
+    msrgin-bottom:20px;
+    background-image:url("190.jpg");
+    background-repeat: round;
+}
 
 /* CSS for Credit Card Payment form */
 .credit-card-box .panel-title {
