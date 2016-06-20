@@ -45,18 +45,18 @@ body{
 	height:100%;
 }
 
-#main>.row {
-    overflow-y:scroll;
-}
+
+
 
 #left {
 	height:100%;
 }
 
 #map-canvas {
-	width:50%;
+	width:100%;
     height:calc(100% - 0);
     position:absolute;
+	left:0;
     right:16px;
     top:0;
     bottom:0;
