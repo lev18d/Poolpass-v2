@@ -29,7 +29,7 @@ function initialize() {
         });
         google.maps.event.addListener(marker, 'click', (function(marker, i) {
             return function() {
-                infowindow.setContent('<p> '+locations[i][0]+'</p>'+'<a href="http://www.google.com"<button>Visit</button>');
+                infowindow.setContent('<p> '+locations[i][0]+'</p>'+'<a href="ppQR.html"<button>Visit</button>');
                 infowindow.open(map, marker);
             }
         })(marker, i));
